@@ -1,0 +1,3 @@
+Download TGUI Version 0.9.3 Here: https://github.com/texus/TGUI/releases/download/v0.9.3/TGUI-0.9.3-vc16-32bit-for-SFML-2.5.1.zip
+
+REMINDER: Extract the contents to the root "MTG_Scoreboard" directory, not a new subfolder - the ZIP file contains its own folder.

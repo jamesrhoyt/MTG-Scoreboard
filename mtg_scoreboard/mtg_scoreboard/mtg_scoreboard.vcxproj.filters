@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="startupScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameSetupPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamePanelEmperor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gamePanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="startupScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="panelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameSetupPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamePanelEmperor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\startupBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Resources\MAGIC.TTF">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\gameSetupButtonAdd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\gameSetupButtonRemove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonLifeMinusFive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonLifeMinusTen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonLifePlusFive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonLifePlusOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonPoisonMinusOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonPoisonPlusOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonCommanderMinusOne.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Resources\buttonCommanderClose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\DejaVuSans.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

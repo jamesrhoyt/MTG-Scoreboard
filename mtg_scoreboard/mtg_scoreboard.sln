@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mtg_scoreboard", "mtg_scoreboard\mtg_scoreboard.vcxproj", "{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "mtg_scoreboard_installer", "mtg_scoreboard_installer\mtg_scoreboard_installer.vdproj", "{E18D03BF-9D12-4EB8-8423-07E1A8536067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}.Debug|Win32.Build.0 = Debug|Win32
+		{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}.Release|Win32.ActiveCfg = Release|Win32
+		{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}.Release|Win32.Build.0 = Release|Win32
+		{E18D03BF-9D12-4EB8-8423-07E1A8536067}.Debug|Win32.ActiveCfg = Debug
+		{E18D03BF-9D12-4EB8-8423-07E1A8536067}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78481CE2-DB53-49B6-9A4A-2504DCB91024}
+	EndGlobalSection
+EndGlobal

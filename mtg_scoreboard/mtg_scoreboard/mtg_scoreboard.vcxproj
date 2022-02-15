@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1AEE6A4D-1D15-4D5B-ACB7-CF061A04E42E}</ProjectGuid>
+    <RootNamespace>mtg_scoreboard</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_78_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.28-win32\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;SFML_STATIC;_DEBUG;_CONSOLE;CPPCONN_PUBLIC_FUNC=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;tgui-s-d.lib;vs14\libcrypto.lib;vs14\mysqlcppconn-static.lib;vs14\mysqlcppconn8-static.lib;vs14\libssl.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_78_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.28-win32\lib</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_78_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.28-win32\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-network.lib;sfml-audio.lib;tgui.lib;vs14\libcrypto.lib;vs14\mysqlcppconn.lib;vs14\mysqlcppconn8.lib;vs14\libssl.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_78_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.28-win32\lib</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="constants.cpp" />
+    <ClCompile Include="gamePanel.cpp" />
+    <ClCompile Include="gamePanelEmperor.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="panelManager.cpp" />
+    <ClCompile Include="gameSetupPanel.cpp" />
+    <ClCompile Include="startupScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="gamePanel.h" />
+    <ClInclude Include="gamePanelEmperor.h" />
+    <ClInclude Include="panelManager.h" />
+    <ClInclude Include="gameSetupPanel.h" />
+    <ClInclude Include="startupScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\MAGIC.TTF" />
+    <None Include="..\Resources\startupBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\buttonCommanderClose.png" />
+    <Image Include="..\Resources\buttonCommanderMinusOne.png" />
+    <Image Include="..\Resources\buttonLifeMinusFive.png" />
+    <Image Include="..\Resources\buttonLifeMinusTen.png" />
+    <Image Include="..\Resources\buttonLifePlusFive.png" />
+    <Image Include="..\Resources\buttonLifePlusOne.png" />
+    <Image Include="..\Resources\buttonPoisonMinusOne.png" />
+    <Image Include="..\Resources\buttonPoisonPlusOne.png" />
+    <Image Include="..\Resources\gameSetupButtonAdd.png" />
+    <Image Include="..\Resources\gameSetupButtonRemove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\DejaVuSans.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

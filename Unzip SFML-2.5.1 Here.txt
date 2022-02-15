@@ -1,0 +1,3 @@
+Download SFML Version 2.5.1 Here: https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-32-bit.zip
+
+REMINDER: Extract the contents to the root "MTG_Scoreboard" directory, not a new subfolder - the ZIP file contains its own folder.

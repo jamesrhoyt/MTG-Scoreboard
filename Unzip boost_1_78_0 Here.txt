@@ -1,0 +1,3 @@
+Download Boost Version 1.78.0 Here: https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.zip
+
+REMINDER: Extract the contents to the root "MTG_Scoreboard" directory, not a new subfolder - the ZIP file contains its own folder.
