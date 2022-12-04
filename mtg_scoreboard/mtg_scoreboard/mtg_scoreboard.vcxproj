@@ -49,7 +49,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_78_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.28-win32\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_80_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.31-win32\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;SFML_STATIC;_DEBUG;_CONSOLE;CPPCONN_PUBLIC_FUNC=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -57,7 +57,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;tgui-s-d.lib;vs14\libcrypto.lib;vs14\mysqlcppconn-static.lib;vs14\mysqlcppconn8-static.lib;vs14\libssl.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_78_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.28-win32\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_80_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.31-win32\lib</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -67,14 +67,14 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_78_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.28-win32\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\TGUI-0.9\include;..\..\boost_1_80_0;..\..\SFML-2.5.1\include;..\..\mysql-connector-c++-8.0.31-win32\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-network.lib;sfml-audio.lib;tgui.lib;vs14\libcrypto.lib;vs14\mysqlcppconn.lib;vs14\mysqlcppconn8.lib;vs14\libssl.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_78_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.28-win32\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\\TGUI-0.9\lib;..\..\\boost_1_80_0\libs;..\..\\SFML-2.5.1\lib;..\..\\mysql-connector-c++-8.0.31-win32\lib</AdditionalLibraryDirectories>
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
     </Link>
   </ItemDefinitionGroup>

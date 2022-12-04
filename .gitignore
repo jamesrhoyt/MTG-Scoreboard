@@ -1,5 +1,5 @@
 # External Libraries (Users will have to download and unzip them themselves, due to their size.)
-boost_1_78_0/
-mysql-connector-c++-8.0.28-win32/
+boost_1_80_0/
+mysql-connector-c++-8.0.31-win32/
 SFML-2.5.1/
 TGUI-0.9/
